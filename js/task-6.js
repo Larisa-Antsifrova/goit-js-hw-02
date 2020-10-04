@@ -1,3 +1,7 @@
+console.log(
+  "Task 6 ------------------------------------------------------------"
+);
+
 function mapArray(array) {
   const numbers = new Array(array.length);
   for (let i = 0; i < array.length; i += 1) {

@@ -1,3 +1,7 @@
+console.log(
+  "Task 8 ------------------------------------------------------------"
+);
+
 function reduceArray(array) {
   let total = 0;
 

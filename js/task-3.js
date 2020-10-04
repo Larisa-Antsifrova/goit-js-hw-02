@@ -1,3 +1,7 @@
+console.log(
+  "Task 3 ------------------------------------------------------------"
+);
+
 function findLongestWord(string = "") {
   let allWords = string.split(" ");
   let longestWord = allWords[0];

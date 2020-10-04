@@ -1,3 +1,7 @@
+console.log(
+  "Task 7 ------------------------------------------------------------"
+);
+
 function filterArray(array) {
   const numbers = [];
 

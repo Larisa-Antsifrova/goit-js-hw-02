@@ -1,3 +1,7 @@
+console.log(
+  "Task 4 ------------------------------------------------------------"
+);
+
 const formatString = (string, maxLength = 40) =>
   string.length <= maxLength ? string : `${string.slice(0, maxLength)}...`;
 

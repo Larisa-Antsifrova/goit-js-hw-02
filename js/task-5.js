@@ -1,3 +1,7 @@
+console.log(
+  "Task 5 ------------------------------------------------------------"
+);
+
 const checkForSpam = (str) =>
   str.toLowerCase().includes("spam") || str.toLowerCase().includes("sale")
     ? true

@@ -1,3 +1,7 @@
+console.log(
+  "Task 2 ------------------------------------------------------------"
+);
+
 const calculateEngravingPrice = (message = "", pricePerWord = 0) =>
   pricePerWord * message.split(" ").length;
 

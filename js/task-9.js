@@ -1,3 +1,7 @@
+console.log(
+  "Task 9 ------------------------------------------------------------"
+);
+
 const isLoginValid = (login, min = 4, max = 16) =>
   login.length >= min && login.length <= max ? true : false;
 
