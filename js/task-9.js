@@ -1,19 +1,8 @@
-function isLoginValid(login, min = 4, max = 16) {
-  let newLogin = login.split("").length;
-  if (newLogin >= min && newLogin <= max) {
-    return true;
-  }
+const isLoginValid = (login, min = 4, max = 16) =>
+  login.length >= min && login.length <= max ? true : false;
 
-  return false;
-}
-
-function isLoginUnique(allLogins, login) {
-  if (!allLogins.includes(login)) {
-    return true;
-  }
-
-  return false;
-}
+const isLoginUnique = (allLogins, login) =>
+  !allLogins.includes(login) ? true : false;
 
 function addLogin(allLogins, login) {
   const SUCCESS = "Логин успешно добавлен!";

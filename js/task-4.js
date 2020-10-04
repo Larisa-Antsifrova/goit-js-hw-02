@@ -1,13 +1,5 @@
-function formatString(string, maxLength = 40) {
-  if (string.length <= maxLength) {
-    return string;
-  }
-  if (string.length > maxLength) {
-    let shortString = string.slice(0, maxLength);
-
-    return `${shortString}...`;
-  }
-}
+const formatString = (string, maxLength = 40) =>
+  string.length <= maxLength ? string : `${string.slice(0, maxLength)}...`;
 
 console.log(formatString("Curabitur ligula sapien, tincidunt non."));
 // 'Curabitur ligula sapien, tincidunt non.'
